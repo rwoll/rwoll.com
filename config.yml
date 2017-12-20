@@ -1,6 +1,8 @@
 baseURL: "https://rwoll.com/"
 title: "rwoll"
 
+googleAnalytics: UA-111464029-1
+
 # [RAW] NOTE: Added this option to prevent the blog section title from
 # becoming "Blogs" in list view.
 pluralizeListTitles: false
