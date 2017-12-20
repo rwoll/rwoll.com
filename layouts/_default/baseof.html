@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        {{ .Hugo.Generator }}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+        <title>{{ block "title" . }}{{ .Page.Title }} | {{ .Site.Title }}{{ end }}</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quattrocento" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}stylesheets/normalize.css">
+        <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}stylesheets/main.css">
+    </head>
+    <body>
+        {{ partial "header.html" . }}
+        <main class="{{ or .Section "home" }}">
+            {{ block "heading" . }}
+            <h1><span class="highlighter">{{ .Title }}</span></h1>
+            {{ end }}
+            {{ block "main" . }}
+            {{ .Content }}
+            {{ end }}
+        </main>
+    </body>
+</html>

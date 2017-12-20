@@ -1,0 +1,73 @@
+experience:
+  - title: Software Engineer II
+    when: "Starting Summer 2018"
+    where: Proofpoint, Inc.
+    link: https://www.proofpoint.com/
+
+  - title: Computer Science Teaching Assistant
+    when: Spring 2015 - Present
+    where: Pomona College
+    link: https://www.pomona.edu/academics/departments/computer-science/
+
+  - title: Software Engineer I
+    when: "January 2017 - August 2017"
+    where: Proofpoint, Inc.
+    link: https://www.proofpoint.com/
+
+  - title: Software Engineering Intern
+    when: Summer 2016
+    where: Proofpoint, Inc.
+    link: https://www.proofpoint.com/
+
+  - title: Technical Intern
+    when: Summer 2015
+    where: APP Technologies, LLC
+    link: http://www.apptechnologies.biz/
+
+
+
+courses:
+  - title: Object-Oriented Programming
+    when: Fall 2014
+
+  - title: Functional Programming
+    when: Spring 2015
+
+  - title: Data Structures
+    when: Fall 2015
+
+  - title: Philosophy of Technology
+    when: Fall 2015
+
+  - title: Domain-Specific Languages
+    when: Fall 2016
+
+  - title: Programming Languages
+    when: Fall 2016
+
+  - title: Artificial Intelligence
+    when: Fall 2016
+
+  - title: Computability and Logic
+    when: Spring 2016
+
+  - title: Computer Systems
+    when: Spring 2016
+
+  - title: Temporal Graph Research
+    when: Spring 2016
+
+  - title: Combinatorial Mathematics
+    when: Fall 2015
+
+  - title: Linear Algebra
+    when: Fall 2014
+
+  - title: Statistics
+    when: Fall 2016
+
+  - title: Algorithms
+    when: Present
+
+  - title: Computer Networks
+    when: Present

@@ -1,0 +1,26 @@
+{{ define "main" }}
+{{ .Content }}
+
+<h2>Experience</h2>
+
+<ul>
+    {{ range .Site.Data.coding.experience }}
+    <li><span class="job__title">{{ .title }}</span> &middot; <a href="{{ .link }}">{{ .where }}</a> <span class="sub">({{ .when }})</span><br/></li>
+    {{ end }}
+</ul>
+
+<h2>Coursework</h2>
+
+<ul>
+    {{ range .Site.Data.coding.courses }}
+    <li>{{ .title }} <span class="sub">({{ .when }})</span></li>
+    {{ end }}
+</ul>
+
+<h2>Tools &amp; Technologies</h2>
+
+<p>
+    Please <a href="/contact/">contact me</a> for a copy of my resumé which
+    includes and <em>contextualizes</em> the tools and technologies I've used.
+</p>
+{{ end }}

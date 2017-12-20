@@ -1,0 +1,6 @@
+{{ define "heading" }}
+<h1>
+    <span class="highlighter">{{ .Title }}</span>
+</h1>
+<span class="sub">{{ .Date.Format "January 2, 2006" | upper }}</span>
+{{ end }}

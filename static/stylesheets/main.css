@@ -1,0 +1,126 @@
+body {
+    border-top: solid 4px #33FF99;
+
+    font-family: Quattrocento, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 20px;
+    line-height: 2em;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+blockquote {
+    border-left: 4px solid #FFF143;
+
+    padding-left: 2em;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+pre {
+    overflow-x: auto;
+    padding: 1em;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 2px solid #7DD7FF;
+}
+
+p {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: justify;
+}
+
+body > main {
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.site {
+    text-align: center;
+}
+
+header.site {
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+header.site ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header.site nav a {
+    text-decoration: none;
+    border-bottom: 0;
+    color: rgb(56, 56, 56);
+}
+
+header.site nav a:hover, header.site nav a.active {
+    border-bottom: 2px solid #5E43FF;
+}
+
+header.site svg {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+header.site nav li {
+    display: inline-block;
+    margin: 1em 2em;
+}
+
+@media only screen and (max-width: 675px) {
+    header.site nav li {
+        display: block;
+        margin: 0;
+    }
+}
+
+body > main > p:first-of-type::first-letter {
+    font-size: 2em;
+}
+
+.highlighter {
+    background-image: linear-gradient(transparent .5em, #FFF143 .1em);
+}
+
+.sub {
+    color: rgb(160, 160, 160);
+}
+
+.software-engineering .job__title, .theatre .award__title, .theatre .credit__role {
+    font-weight: bold;
+}
+
+/* good to here */
+
+main.blog .summary {
+    padding-left: 1em;
+    border-left: 4px solid #FFF143;
+}
+
+main.blog button {
+    color: #FFFFFF;
+    border-radius: .1em;
+    background-color: #5E43FF;
+    padding: .5em;
+    margin-bottom: 1em;
+    border: none;
+}

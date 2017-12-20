@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+{{ range .Data.Pages }}
+<a href="{{ .URL }}">
+    <div class="summary">
+        <h2>{{.Title}}</h2>
+        <span class="sub">{{ .Date.Format "January 2, 2006" | upper }}</span>
+
+        <p>{{ .Summary }}</p>
+        <button>Read More &rarr;</button>
+    </div>
+</a>
+{{ end }}
+
+{{ end }}

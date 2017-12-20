@@ -1,0 +1,141 @@
+awards:
+  - title: Virginia Princehouse Allen Prize
+    when: 2014 - 2015
+    where: Pomona College
+
+  - title: Company Service Award
+    when: 2013 - 2014
+    where: WHS Company
+
+  - title: WestonArts Doris Fiotakis Theater Arts Award
+    when: 2013 - 2014
+    where: Weston High School
+
+  - title: Stage Management Award
+    when: 2011 - 2012
+    where: WHS Company
+
+  - title: Technical Theater Award
+    when: 2011 - 2012
+    where: Weston High School
+
+credits:
+  - venue: College
+    elems:
+    - role: Stage Manager
+      title: Cabaret
+      when: Fall 2017
+      where: Pomona College Department of Theatre
+      director: Giovanni Ortega
+
+    - role: Stage Manager
+      title: The House of the Spirits
+      when: Fall 2016
+      where: Pomona College Department of Theatre
+      director: Giovanni Ortega
+
+    - role: Stage Manager
+      title: In the Next Room, or the Vibrator Play
+      when: Spring 2015
+      where: Pomona College Department of Theatre
+      director: Giovanni Ortega
+
+    - role: Production Manager (Short Film)
+      title: Upon the Fragile Shore
+      when: Spring 2015
+      where: Pomona College
+      director: Giovanni Ortega
+
+    - role: Assistant Stage Manager
+      title: Uncle Vanya
+      when: Fall 2014
+      where: Pomona College Department of Theatre
+      director: Art Horowitz
+
+    - role: Spotlight Operator
+      title: Urinetown
+      when: Spring 2016
+      where: Pomona College Department of Theatre
+      director: Giovanni Ortega
+
+    - role: Spotlight Operator
+      title: Spring Awakening
+      when: Fall 2014
+      where: Pomona College Department of Theatre
+      director: Giovanni Ortega
+
+  - venue: Regional
+    elems:
+      - role: HS Apprentice & Run Crew
+        title: Nora
+        when: Summer 2014
+        where: Westport Country Playhouse
+        director: David Kennedy
+
+  - venue: High School
+    elems:
+      - role: Backstage Manager & Student Technical Director
+        title: Carousel
+        when: Spring 2014
+        where: WHS Company
+        director: Damian Long
+
+      - role: Stage Manager
+        title: Seussical
+        when: Winter 2013/2014
+        where: WMS Short Wharf
+        director: Elizabeth Morris
+
+      - role: Backstage Manager & Student Set Director
+        title: Twelfth Night, or What You Will
+        when: Fall 2013
+        where: WHS Company
+        director: Damian Long
+
+      - role: Projection Designer
+        title: Grease
+        when: Winter 2012/2014
+        where: WMS Short Wharf
+        director: Elizabeth Morris
+
+      - role: Backstage Manager
+        title: The Crucible
+        when: Fall 2012
+        where: WHS Company
+        director: Damian Long
+
+      - role: Backstage Manager
+        title: Guys and Dolls
+        when: Spring 2012
+        where: WHS Company
+        director: Damian Long
+
+      - role: Videographer
+        title: The Importance of Being Earnest
+        when: Fall 2011
+        where: WHS Company
+        director: Damian Long
+
+      - role: Run Crew
+        title: Anyone Can Whistle
+        when: Spring 2011
+        where: WHS Company
+        director: Damian Long
+
+      - role: Run Crew
+        title: As You Like It
+        when: Fall 2010
+        where: WHS Company
+        director: Damian Long
+
+      - role: Props
+        title: How to Succeed in Business Without Really Trying
+        when: Spring 2010
+        where: WHS Company
+        director: Damian Long
+
+      - role: Student Director & Backstage Manager
+        title: Bye, Bye Birdie
+        when: Winter 2009/2010
+        where: WMS Short Wharf
+        director: Andrea Metchick

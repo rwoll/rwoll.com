@@ -1,0 +1,12 @@
+<header class="site">
+    <a href={{ .Site.BaseURL }}>{{ partial "logo.svg" }}</a>
+    <nav>
+        <ul>
+        {{ range .Site.Menus.main }}
+            <li>
+                <a {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}class="active"{{ end }} href="{{ .URL }}">{{ .Name | upper }}</a>
+            </li>
+        {{ end }}
+        </ul>
+    </nav>
+</header>

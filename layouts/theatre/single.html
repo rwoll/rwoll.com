@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ .Content }}
+
+<h2>Select Awards</h2>
+
+<ul>
+    {{range .Site.Data.theatre.awards }}
+    <li><span class="award__title">{{ .title }}</span> &middot; {{ .where }} <span class="sub">({{ .when }})</span><br/></li>
+    {{ end }}
+</ul>
+
+<h2>Experience</h2>
+
+{{ range .Site.Data.theatre.credits }}
+<h3>{{ .venue }}</h3>
+
+<ul>
+    {{range .elems }}
+    <li><span class="credit__role">{{ .role }}</span> &middot; <em>{{ .title }}</em> &middot; {{ .where }} <span class="sub">({{ .when }})</span><br/>Directed by {{ .director }}</li>
+    {{ end }}
+</ul>
+{{ end }}
+{{ end }}
