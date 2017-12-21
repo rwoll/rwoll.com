@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ .Content }}
+<div class="contact__form">
+    <h2><span class="_highlighter">Say "Hello"!</span></h2>
+    <form name="contact" netlify>
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="example@example.com">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button class="button" type="submit">Send</button>
+    </form>
+</div>
+{{ end }}
