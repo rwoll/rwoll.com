@@ -1,6 +1,6 @@
 experience:
   - title: Software Engineer II
-    when: "Starting Summer 2018"
+    when: Starting Summer 2018
     where: Proofpoint, Inc.
     link: https://www.proofpoint.com/
 
@@ -10,7 +10,7 @@ experience:
     link: https://www.pomona.edu/academics/departments/computer-science/
 
   - title: Software Engineer I
-    when: "January 2017 - August 2017"
+    when: January 2017 - August 2017
     where: Proofpoint, Inc.
     link: https://www.proofpoint.com/
 
@@ -23,8 +23,6 @@ experience:
     when: Summer 2015
     where: APP Technologies, LLC
     link: http://www.apptechnologies.biz/
-
-
 
 courses:
   - title: Object-Oriented Programming
