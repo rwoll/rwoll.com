@@ -1,5 +1,4 @@
-/* [RAW] TODO: Clean-up the CSS and consider using a preprocessor */
-
+/* ######## General Re-Styles ######## */
 body {
     border-top: solid 4px #33FF99;
 
@@ -37,6 +36,16 @@ p {
     text-align: justify;
 }
 
+/* ######## Component Styling ######## */
+
+.highlighter {
+    background-image: linear-gradient(transparent .5em, #FFF143 .1em);
+}
+
+.sub {
+    color: #A0A0A0;
+}
+
 body > main {
     padding: 1em;
     margin: 0 auto;
@@ -62,7 +71,7 @@ header.site ul {
 header.site nav a {
     text-decoration: none;
     border-bottom: 0;
-    color: rgb(56, 56, 56);
+    color: #383838;
 }
 
 header.site nav a:hover, header.site nav a.active {
@@ -93,14 +102,6 @@ body > main > p:first-of-type::first-letter {
     font-size: 2em;
 }
 
-.highlighter {
-    background-image: linear-gradient(transparent .5em, #FFF143 .1em);
-}
-
-.sub {
-    color: rgb(160, 160, 160);
-}
-
 .software-engineering .job__title, .theatre .award__title, .theatre .credit__role {
     font-weight: bold;
 }
@@ -109,7 +110,7 @@ main.blog .summary {
     padding-left: 3px;
     padding: 1em;
     border-left: 4px solid #FFF143;
-    border: 1px solid rgb(160, 160, 160);
+    border: 1px solid #A0A0A0;
 }
 
 main.blog .summary:hover {

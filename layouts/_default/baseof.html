@@ -2,27 +2,36 @@
 
 <html lang="en">
     <head>
-        {{ partial "google-analytics.html" . }}
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
-        {{ .Hugo.Generator }}
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+        {{ .Hugo.Generator }}
+        {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+            <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+        {{ else }}
+            <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+        {{ end }}
 
         <title>{{ block "title" . }}{{ .Page.Title }} &middot; {{ .Site.Title }}{{ end }}</title>
 
         <link rel="shortcut icon" href="{{ "favicon.ico" | absURL }}?{{ querify "v" 0 }}">
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quattrocento" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="{{ "stylesheets/normalize.css" | absURL }}">
         <link rel="stylesheet" type="text/css" href="{{ "stylesheets/main.css" | absURL }}">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display|Quattrocento">
+
+        {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+            {{ template "_internal/google_analytics_async.html" . }}
+        {{ end }}
     </head>
     <body>
         {{ partial "header.html" . }}
         <main class="{{ or .Section "home" }}">
             {{ block "heading" . }}
-            <h1><span class="highlighter">{{ .Title }}</span></h1>
+            <h1>
+                <span class="highlighter">{{ .Title }}</span>
+            </h1>
             {{ end }}
-            {{ block "main" . }}
-            {{ .Content }}
-            {{ end }}
+
+            {{ block "main" . }}{{ .Content }}{{ end }}
         </main>
     </body>
 </html>
