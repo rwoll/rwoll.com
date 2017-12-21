@@ -5,7 +5,9 @@
 
 <ul>
     {{range .Site.Data.theatre.awards }}
-    <li><span class="award__title">{{ .title }}</span> &middot; {{ .where }} <span class="sub">({{ .when }})</span><br/></li>
+    <li>
+        <span class="award__title">{{ .title }}</span> &middot; {{ .where }} <span class="award__when">({{ .when }})</span>
+    </li>
     {{ end }}
 </ul>
 
@@ -16,7 +18,11 @@
 
 <ul>
     {{range .elems }}
-    <li><span class="credit__role">{{ .role }}</span> &middot; <em>{{ .title }}</em> &middot; {{ .where }} <span class="sub">({{ .when }})</span><br/>Directed by {{ .director }}</li>
+    <li>
+        <span class="credit__role">{{ .role }}</span> &middot; <span class="credit__play">{{ .title }}</span> &middot; {{ .where }} <span class="credit__when">({{ .when }})</span>
+        <br/>
+        Directed by {{ .director }}
+    </li>
     {{ end }}
 </ul>
 {{ end }}

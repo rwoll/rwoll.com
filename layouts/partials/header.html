@@ -1,10 +1,12 @@
-<header class="site">
-    <a href={{ .Site.BaseURL }}>{{ partial "logo.svg" }}</a>
-    <nav>
+<header class="site__header">
+    <a class="site__header__logo" href={{ .Site.BaseURL }}>
+        <img class="site__header__logo" src="{{ "images/logo.svg" | absURL }}" alt="rwoll logo">
+    </a>
+    <nav class="site__header__nav">
         <ul>
         {{ range .Site.Menus.main }}
             <li>
-                <a {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}class="active"{{ end }} href="{{ .URL }}">{{ .Name | upper }}</a>
+                <a class="site__header__nav__link{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}--active{{ end }}" href="{{ .URL }}">{{ .Name | upper }}</a>
             </li>
         {{ end }}
         </ul>

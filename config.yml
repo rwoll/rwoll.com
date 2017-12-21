@@ -1,6 +1,9 @@
 baseURL: https://rwoll.com/
 title: rwoll
 
+params:
+  AuthorName: Ross A. Wollman
+
 googleAnalytics: UA-111464029-1
 
 # [RAW] NOTE: Added this option to prevent the blog section title from
