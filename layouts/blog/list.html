@@ -3,7 +3,7 @@
 {{ range .Data.Pages }}
 <a href="{{ .URL }}">
     <div class="summary">
-        <h2>{{.Title}}</h2>
+        <h2><span class="highlighter">{{.Title}}</span></h2>
         <span class="sub">{{ .Date.Format "January 2, 2006" | upper }}</span>
 
         <p>{{ .Summary }}</p>
