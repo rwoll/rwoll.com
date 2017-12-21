@@ -1,5 +1,5 @@
-baseURL: "https://rwoll.com/"
-title: "rwoll"
+baseURL: https://rwoll.com/
+title: rwoll
 
 googleAnalytics: UA-111464029-1
 
@@ -16,23 +16,23 @@ sectionPagesMenu: main
 menu:
   main:
       # [RAW] NOTE: Home metadata is located in /content/index.md
-      - Name: "Blog"
-        Identifier: "blog"
-        URL: "/blog/"
+      - Name: Blog
+        Identifier: blog
+        URL: /blog/
         Weight: 2
 
-      - Name: "Software Engineering"
-        Identifier: "software-engineering"
-        URL: "/software-engineering/"
+      - Name: Software Engineering
+        Identifier: software-engineering
+        URL: /software-engineering/
         Weight: 3
 
-      - Name: "Theatre"
-        Identifier: "theatre"
-        URL: "/theatre/"
+      - Name: Theatre
+        Identifier: theatre
+        URL: /theatre/
         Weight: 4
 
-      - Name: "Contact"
-        Identifier: "contact"
-        URL: "/contact/"
+      - Name: Contact
+        Identifier: contact
+        URL: /contact/
         Weight: 5
 
