@@ -1,5 +1,5 @@
 ---
-title: "Hello, World!"
+title: Hello, World!
 date: 2017-12-19T19:52:53-05:00
 ---
 

@@ -2,7 +2,7 @@
 title: About
 menu:
   main:
-    identifier : "home"
+    identifier : home
     weight: 1
 ---
 
