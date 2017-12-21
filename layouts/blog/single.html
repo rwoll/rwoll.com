@@ -1,6 +1,24 @@
 {{ define "heading" }}
-<h1>
-    <span class="highlighter">{{ .Title }}</span>
-</h1>
-<span class="sub">{{ .Date.Format "January 2, 2006" | upper }}</span>
+{{/*
+    [RAW] HACK: We want to remove the heading completely for articles.
+                If we leave this empty, Hugo keeps the header from the extended
+                template/partial.
+*/}}
+<!-- Hi! -->
+{{ end}}
+
+{{ define "main" }}
+<article class="article">
+    <header class="article__header">
+        <h1 class="article__header__title">
+            <span class="_highlighter">{{.Title}}</span>
+        </h1>
+        <div class="article__header__meta">
+            {{ .Date.Format "January 2, 2006" | upper }}
+        </div>
+    </header>
+    <section class="article__writing">
+        {{ .Content }}
+    </section>
+</article>
 {{ end }}

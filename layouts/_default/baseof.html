@@ -4,6 +4,7 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+        <meta name="author" content="{{ .Site.Params.AuthorName }}">
         {{ .Hugo.Generator }}
         {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
             <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -24,10 +25,10 @@
     </head>
     <body>
         {{ partial "header.html" . }}
-        <main class="{{ or .Section "home" }}">
+        <main class="content-wrapper">
             {{ block "heading" . }}
             <h1>
-                <span class="highlighter">{{ .Title }}</span>
+                <span class="_highlighter">{{ .Title }}</span>
             </h1>
             {{ end }}
 
