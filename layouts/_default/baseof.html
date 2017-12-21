@@ -14,7 +14,7 @@
 
         <title>{{ block "title" . }}{{ .Page.Title }} &middot; {{ .Site.Title }}{{ end }}</title>
 
-        <link rel="shortcut icon" href="{{ "favicon.ico" | absURL }}?{{ querify "v" 0 }}">
+        <link rel="shortcut icon" href="{{ "favicon.ico" | absURL }}?{{ (querify "q" 1) | safeURL }}">
         <link rel="stylesheet" type="text/css" href="{{ "stylesheets/normalize.css" | absURL }}">
         <link rel="stylesheet" type="text/css" href="{{ "stylesheets/main.css" | absURL }}">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display|Quattrocento">
