@@ -4,7 +4,7 @@
   publish = "public"
 
 [context.production.environment]
-  ENV = "production"
+  HUGO_ENV = "production"
 
 [context.deploy-preview.environment]
-  ENV = "staging"
+  HUGO_ENV = "staging"
