@@ -1,3 +1,5 @@
+/* [RAW] TODO: Clean-up the CSS and consider using a preprocessor */
+
 body {
     border-top: solid 4px #33FF99;
 
@@ -102,8 +104,6 @@ body > main > p:first-of-type::first-letter {
 .software-engineering .job__title, .theatre .award__title, .theatre .credit__role {
     font-weight: bold;
 }
-
-/* good to here */
 
 main.blog .summary {
     padding-left: 3px;
