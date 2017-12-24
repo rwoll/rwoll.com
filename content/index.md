@@ -17,7 +17,7 @@ of Admissions][6], mentoring in a Computer Science lab for a course on
 Computability and Logic, or working backstage on the latest [Pomona College
 Department of Theatre's production][7].
 
-If you're looking for me online, you can find me here,
+If you're looking for me online, you can find me [here](/contact/),
 on __[GitHub](https://github.com/rwoll/)__, and
 on __[LinkedIn](https://www.linkedin.com/in/rwoll/)__.
 
