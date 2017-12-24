@@ -152,7 +152,7 @@ p {
     border: none;
     background-color: inherit;
     border-bottom: 3px solid #A0A0A0;
-    margin: 2em 0;
+    margin-bottom: 2em;
     display: block;
     width: 100%;
     font-size: 16px;
