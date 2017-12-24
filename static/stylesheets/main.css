@@ -2,7 +2,7 @@ body {
     border-top: solid 4px #33FF99;
 
     font-family: Quattrocento, Cochin, Georgia, Times, Times New Roman, serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 2em;
 }
 
@@ -141,7 +141,7 @@ p {
 }
 
 .contact__form {
-    margin: 1em;
+    margin: 1em 0;
     border-radius: 3px;
     padding: 2em;
     background-color: #EFEFEF;
