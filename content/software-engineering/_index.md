@@ -1,4 +1,5 @@
 ---
+layout: single
 title: Software Engineering
 ---
 

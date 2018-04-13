@@ -1,5 +1,5 @@
 [build]
-  environment = {HUGO_VERSION = "0.30.2"}
+  environment = {HUGO_VERSION = "0.38.2"}
   command = "hugo"
   publish = "public"
 
