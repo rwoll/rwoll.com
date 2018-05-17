@@ -1,11 +1,6 @@
 experience:
-  - title: Software Engineer II
-    when: Starting Summer 2018
-    where: Proofpoint, Inc.
-    link: https://www.proofpoint.com/
-
   - title: Computer Science Teaching Assistant
-    when: Spring 2015 - Present
+    when: Spring 2015 - May 2018
     where: Pomona College
     link: https://www.pomona.edu/academics/departments/computer-science/
 
@@ -65,7 +60,10 @@ courses:
     when: Fall 2016
 
   - title: Algorithms
-    when: Present
+    when: Spring 2018
 
   - title: Computer Networks
-    when: Present
+    when: Fall 2017
+
+  - title: Developing a (More) Secure Research Protocol (Senior Project)
+    when: Spring 2018
