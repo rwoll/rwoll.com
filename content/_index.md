@@ -10,7 +10,7 @@ menu:
 Hello!
 
 I'm __Ross A. Wollman__, and I'm interested in [software engineering][1],
-[stage managing][2], and rock climbing.
+[stage management][2], and rock climbing.
 
 If you're looking for me online, you can find me [here](/contact/),
 on __[GitHub](https://github.com/rwoll/)__, and
