@@ -31,48 +31,68 @@ experience:
 courses:
   - title: Object-Oriented Programming
     when: Fall 2014
+    where: Pomona College
 
   - title: Functional Programming
     when: Spring 2015
+    where: Pomona College
 
   - title: Data Structures
     when: Fall 2015
+    where: Pomona College
 
   - title: Philosophy of Technology
     when: Fall 2015
+    where: Pomona College
 
   - title: Domain-Specific Languages
     when: Fall 2016
+    where: Harvey Mudd College
 
   - title: Programming Languages
     when: Fall 2016
+    where: Pomona College
 
   - title: Artificial Intelligence
     when: Fall 2016
+    where: Pomona College
 
   - title: Computability and Logic
     when: Spring 2016
+    where: Pomona College
 
   - title: Computer Systems
     when: Spring 2016
+    where: Harvey Mudd College
 
   - title: Temporal Graph Research
     when: Spring 2016
+    where: Pomona College
 
   - title: Combinatorial Mathematics
     when: Fall 2015
+    where: Pomona College
 
   - title: Linear Algebra
     when: Fall 2014
+    where: Pomona College
 
   - title: Statistics
     when: Fall 2016
+    where: Pomona College
 
   - title: Algorithms
     when: Spring 2018
+    where: Pomona College
 
   - title: Computer Networks
     when: Fall 2017
+    where: Harvey Mudd College
 
   - title: Developing a (More) Secure Research Protocol (Senior Project)
     when: Spring 2018
+    where: Pomona College
+
+  - title: "The Ethics of Technological Disruption: A Conversation with Silicon Valley Leaders and Beyond"
+    when: Winter 2019
+    where: Stanford University

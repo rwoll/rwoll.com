@@ -16,7 +16,7 @@
 <ul>
     {{ range .Site.Data.coding.courses }}
     <li>
-        {{ .title }} <span class="coursework__when">({{ .when }})</span>
+        {{ .title }} <span class="coursework__when">({{ .where }}, {{ .when }})</span>
     </li>
     {{ end }}
 </ul>
