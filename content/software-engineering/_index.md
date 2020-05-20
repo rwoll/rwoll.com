@@ -3,6 +3,13 @@ layout: single
 title: Software Engineering
 ---
 
+I have experience taking vague product ideas and turning them into reality. This
+usually includes quickly prototyping ideas to get feedback early and then
+turning the best parts of the prototype(s) into production ready applications
+deployed on Amazon Web Services (AWS) including everything from Continuous
+Integration (CI) and Deployment (CD) Pipelines to Logging, Alerting, and
+Monitoring.
+
 I've always been inclined to take things apart and investigate how they work---be
 it online or in the physical world. I've been fortunate to have many supportive
 and knowledgeable mentors, professors, and friends that have helped me to discover
@@ -10,12 +17,6 @@ and accelerate my passion for crafting code and mentoring others.
 
 If you're interested in my work, please feel free to [reach out to
 me](/contact/). Additionally, you may find some of my work on [__GitHub__][1].
-
-I have experience taking vague product ideas and turning them into reality. This
-usually includes quickly prototyping ideas to get feedback early and then
-turning the best parts of the prototype(s) into production ready applications
-on Amazon Web Services (AWS) including everything from Continuous Integration and
-Deployment Pipelines to Logging, Alerting, and Monitoring.
 
 ## Open Source Contributions and Interactions
 
