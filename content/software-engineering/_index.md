@@ -18,7 +18,7 @@ and accelerate my passion for crafting code and mentoring others.
 If you're interested in my work, please feel free to [reach out to
 me](/contact/). Additionally, you may find some of my work on [__GitHub__][1].
 
-## Open Source Contributions and Interactions
+## Example Open Source Contributions and Interactions
 
 * Here's an example of me opening an issue, debugging it, and then patching it
   in Microsoft's Playwright library: [GitHub Issue](https://github.com/microsoft/playwright/issues/1777#issuecomment-618011447).
